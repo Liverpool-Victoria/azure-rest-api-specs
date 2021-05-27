@@ -586,14 +586,7 @@
         },
         "function": {
           "description": "The name of the aggregation function to use.",
-          "type": "string",
-          "enum": [
-            "Sum"
-          ],
-          "x-ms-enum": {
-            "name": "FunctionType",
-            "modelAsString": true
-          }
+          "type": "string"
         }
       },
       "required": [
